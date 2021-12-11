@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Paste Bin - New</title>
+</head>
+<body>
+    <h1>Add your own paste here!</h1>
+    <form action="/submitted" method="post">
+        <textarea name="code" id="code" placeholder="Enter your code here!" style = "width: 1475px; height: 200px;"></textarea>
+        <button type="submit">Add your paste!</button>
+        <p><%= data.message %> </p>
+    </form>
+</body>
+</html>
